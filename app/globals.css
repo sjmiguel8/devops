@@ -9,50 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
-    --foreground: #ededed;
+    --background: #000000;
+    --foreground: #000000;
   }
-}
-
-body {
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: black;
-}
-
-
-
-a {
-  color: var(--foreground);
-}
-
-
-.container .home {
-  width: 100%;
-  text-align: center;
-  color: black;
-}
-
-.container .home h1 {
-  font-size: 2em;
-  color: black;
-}
-
-.container .home p {
-  font-size: 1.2em;
-  color: black;
-}
-
-.container .home a {
-  color: black;
 }
 
