@@ -9,8 +9,17 @@ import '../styles/search.css';
 export default function Search() {
     return (
         <div className="search">
-            <h1>Search</h1>
-            <p>My search page.</p>
+            <h1>
+                Search
+            </h1>
+            <p>
+                My search page.
+            </p>
+            <h2>
+                Search results will appear here.
+            </h2>
+
         </div>
+
     );
 }

@@ -51,3 +51,8 @@ a {
 .container .home a {
   color: black;
 }
+
+.container .search h2 { 
+  width: 100%;
+  color: rgb(0, 0, 0); 
+}
