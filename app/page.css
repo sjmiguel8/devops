@@ -1,0 +1,53 @@
+.home {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+
+}
+
+.home h1 {
+    color: #ffffff;
+}
+
+.home p {
+    color: white;
+}
+
+.home a {
+    color: white;
+}
+
+.home a:hover {
+    color: #0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+}
+
+.container .home {
+    width: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.container .home h1 {
+    font-size: 2em;
+    color: white;
+
+}
+
+.container .home p {
+    font-size: 1.2em;
+    color: white;
+
+}
