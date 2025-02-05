@@ -1,0 +1,70 @@
+.job-listings {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-height: 1100px;
+}
+
+.job-listings h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.job-card {
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job-header {
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.job-title {
+  color: #000000df;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.job-company {
+  color: #4a5568;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.job-description {
+  color: #000000df;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.error-message {
+  background-color: #fed7d7;
+  border-left: 4px solid #f56565;
+  color: #c53030;
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 1rem;
+  text-align: center;
+}
