@@ -1,8 +1,9 @@
 .job-listings {
   max-width: 600px;
   margin: 2rem auto;
-  padding: 0 1rem;
-  max-height: 1100px;
+  padding: 0 0rem;
+  max-height: 95vh;
+  overflow-y: auto;
 }
 
 .job-listings h2 {

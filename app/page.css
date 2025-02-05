@@ -24,7 +24,7 @@
 }
 
 .container {
-    display:flex;
+    display: flex;
     height: 100vh;
     color: #ffffff;
     gap: 20px;
@@ -69,7 +69,7 @@
 }
 
 .container .home {
-    width: 50%;
+    width: 100%;
     text-align: center;
     color: #000000;
 }

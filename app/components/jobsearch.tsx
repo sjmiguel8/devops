@@ -66,7 +66,7 @@ class JobSearch extends React.Component<object, JobSearchState> {
 
         return (
             <div className="job-listings">
-                <h2>Job Listings</h2>
+                <h2>Search</h2>
                 {searchResults.map((job: Job) => (
                     <div key={job.job_id} className="job-card">
                         <div className="job-header">

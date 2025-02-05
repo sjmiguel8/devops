@@ -16,12 +16,9 @@
 
 body {
   color: black;
-  background-color:rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-  color: var(--foreground);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -32,8 +29,15 @@ a {
   color: black;
 }
 
+
+
+a {
+  color: var(--foreground);
+}
+
+
 .container .home {
-  width: 50%;
+  width: 100%;
   text-align: center;
   color: black;
 }
