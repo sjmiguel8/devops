@@ -1,16 +1,16 @@
 import '../app/globals.css';
 import '../app/page.css';
+import '../app/components/search.tsx';
 
 export default function Home() {
   return (
-    <div className="home">
-      <h1>Home</h1>
-      <p>My homepage for now, we out here.</p>
-
     <div className="container"> 
-      <h1>Container</h1>
-      <p>My container.</p>
-    </div>
+       <h1>Welcome to thy castle</h1>
+
+     <div className="search">
+       <h1>Search</h1>
+       <p>My search page.</p>
+     </div>
     </div>
   );
 }
