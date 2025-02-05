@@ -37,7 +37,23 @@ html, body {
     margin: 0px;
     padding: 0px;
     background-color: #2b2b2b;
+    color: #ffffff;
 }
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.title h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    color: #ffffff; 
+    font-weight: none;
+    margin-left: 2px;
+    letter-spacing: 0.9px;
+}   
   
 
 .container {
@@ -58,8 +74,7 @@ html, body {
     color: #ffffff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    text-align: center;
-    display: flex;
+    display: flex;  
 
 }
 
@@ -91,12 +106,12 @@ html, body {
 .container .home {
     width: 100%;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 .container p {
     font-size: 1.4em;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     
 

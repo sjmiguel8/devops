@@ -1,0 +1,37 @@
+.navbar {
+    color: white;
+    padding: 10px;
+}
+
+.navbar h1 {
+    font-size: 1.8em;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;   
+}
+
+.nabar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar ul li {
+    align-items: center;
+    justify-content:space-evenly;
+    display: flex;
+    padding: 5px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+
+}   
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
