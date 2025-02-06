@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="title"> 
       <Navbar />
-      <h1>Get Request Job Listings:</h1>
+      <h1>Software Jobs in Houston:</h1>
       <JobSearch />
     </div>
 

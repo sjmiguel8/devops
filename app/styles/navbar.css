@@ -22,7 +22,7 @@
 
 .navbar ul li {
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-around;
     display: flex;
     padding: 5px;
     font-weight: bold;

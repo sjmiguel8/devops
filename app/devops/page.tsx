@@ -1,8 +1,10 @@
-'use client'
+'use client';
 
 import axios, { AxiosRequestConfig } from 'axios';
-import '../styles/jobsearch.css';
 import React, { Key } from 'react';
+import '../styles/jobsearch.css';
+import '../styles/devops.css';
+import Navbar from '../components/navbar';
 
 interface Job {
     job_id: Key | null | undefined;
@@ -16,7 +18,17 @@ interface JobSearchState {
     error: string | null;
 }
 
-class JobSearch extends React.Component<object, JobSearchState> {
+export default function DevOpsPage() {
+    return (
+        <div className="title">
+            <Navbar />
+            <h1>DevOps Jobs in Houston:</h1>
+            <DevOpsSearch />
+        </div>
+    );
+}
+
+class DevOpsSearchComponent extends React.Component<object, JobSearchState> {
     constructor(props: object) {
         super(props);
         this.state = {
@@ -30,7 +42,7 @@ class JobSearch extends React.Component<object, JobSearchState> {
             method: 'GET',
             url: 'https://jsearch.p.rapidapi.com/search',
             params: {
-                query: 'developer jobs in Houston',
+                query: 'devops engineer jobs in houston',
                 page: '1',
                 num_pages: '1',
                 country: 'us',
@@ -63,24 +75,23 @@ class JobSearch extends React.Component<object, JobSearchState> {
         if (error) {
             return <div className="error-message">{error}</div>;
         }
-
         return (
             <div className="job-listings">
-                <h2>Houston Software Job Listings</h2>
-                {searchResults.map((job: Job) => (
-                    <div key={job.job_id} className="job-card">
-                        <div className="job-header">
+                <h2>Houston DevOps Job listings</h2>
+                    {searchResults.map((job: Job) => (
+                        <div key={job.job_id} className="job-card">
+                            <div className="job-header"> 
                             <h3 className="job-title">{job.job_title}</h3>
                             <div className="job-company">{job.job_employer_name}</div>
+                            </div>
+                            <div className="job-description">{job.job_description}</div>
                         </div>
-                        <div className="job-description">
-                            {job.job_description}
-                        </div>
-                    </div>
-                ))}
+                    ))}
             </div>
         );
     }
 }
 
-export default JobSearch;
+const DevOpsSearch = DevOpsSearchComponent;
+
+export { DevOpsSearch };

@@ -5,11 +5,14 @@ export default function Navbar() {
         <div className="navbar">
             <nav>
                 <ul>
-                    <li><a href="/home">Software</a></li>
+                    <li><a href="/" className="active">Software</a></li>
                     <li><a href="/devops">DevOps</a></li>
                     <li><a href="/fullstack">FullStack</a></li>
                 </ul>
             </nav>
         </div>
+
     );
 }
+
+
